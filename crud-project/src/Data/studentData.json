@@ -1,0 +1,158 @@
+{
+  "students": [
+    {
+      "name": "Alice  ",
+      "email": "alice@gmail.com",
+      "course": "Developer",
+      "password": "alice@Developer",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Bob",
+      "email": "bob@gmail.com",
+      "course": "Designer",
+      "password": "bob@designer"
+    },
+    {
+      "id": "3",
+      "name": "Nimmy",
+      "email": "nimmy@gmail.com",
+      "course": "Developer",
+      "password": "nimmy@developer"
+    },
+    {
+      "id": "4",
+      "name": "Jojo",
+      "email": "jojo@gmail.com",
+      "course": "Designer",
+      "password": "jojo@designer"
+    },
+    {
+      "id": "5",
+      "name": "Alice",
+      "email": "alice@gmail.com",
+      "course": "Developer",
+      "password": "alice@Developer"
+    },
+    {
+      "id": "6",
+      "name": "Bob",
+      "email": "bob@gmail.com",
+      "course": "Designer",
+      "password": "bob@designer"
+    },
+    {
+      "id": "7",
+      "name": "Nimmy",
+      "email": "nimmy@gmail.com",
+      "course": "Developer",
+      "password": "nimmy@developer"
+    },
+    {
+      "id": "8",
+      "name": "Jojo",
+      "email": "jojo@gmail.com",
+      "course": "Designer",
+      "password": "jojo@designer"
+    },
+    {
+      "id": "9",
+      "name": "John",
+      "email": "john@gmail.com",
+      "course": "Developer",
+      "password": "john@Developer"
+    },
+    {
+      "id": "10",
+      "name": "Mike",
+      "email": "mike@gmail.com",
+      "course": "Designer",
+      "password": "mike@designer"
+    },
+    {
+      "id": "11",
+      "name": "Romy",
+      "email": "romy@gmail.com",
+      "course": "Developer",
+      "password": "romy@developer"
+    },
+    {
+      "id": "12",
+      "name": "Josh",
+      "email": "josh@gmail.com",
+      "course": "Designer",
+      "password": "josh@designer"
+    },
+    {
+      "id": "13",
+      "name": "Alice",
+      "email": "alice@example.com",
+      "course": "Web Developer",
+      "password": "alice@webdev"
+    },
+    {
+      "id": "14",
+      "name": "Bob",
+      "email": "bob@example.com",
+      "course": "Data Scientist",
+      "password": "bob@datasci"
+    },
+    {
+      "id": "15",
+      "name": "Charlie",
+      "email": "charlie@example.com",
+      "course": "Software Engineer",
+      "password": "charlie@software"
+    },
+    {
+      "id": "16",
+      "name": "Diana",
+      "email": "diana@example.com",
+      "course": "Product Manager",
+      "password": "diana@product"
+    },
+    {
+      "id": "17",
+      "name": "Ethan",
+      "email": "ethan@example.com",
+      "course": "Graphic Designer",
+      "password": "ethan@graphic"
+    },
+    {
+      "id": "18",
+      "name": "Fiona",
+      "email": "fiona@example.com",
+      "course": "UX Designer",
+      "password": "fiona@ux"
+    },
+    {
+      "id": "19",
+      "name": "George",
+      "email": "george@example.com",
+      "course": "Data Analyst",
+      "password": "george@data"
+    },
+    {
+      "id": "20",
+      "name": "Hannah",
+      "email": "hannah@example.com",
+      "course": "Mobile Developer",
+      "password": "hannah@mobile"
+    },
+    {
+      "id": "21",
+      "name": "Ian",
+      "email": "ian@example.com",
+      "course": "DevOps Engineer",
+      "password": "ian@devops"
+    },
+    {
+      "name": "Josh ",
+      "email": "josh@gmail.com",
+      "course": "Designer",
+      "password": "josh@designer",
+      "id": "22"
+    }
+  ]
+}

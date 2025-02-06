@@ -1,0 +1,82 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "alice@gmail.com",
+      "password": "alice@Developer",
+      "role": ["user", "admin"]
+    },
+    {
+      "id": 2,
+      "email": "bob@gmail.com",
+      "password": "bob@designer",
+      "role": [""]
+    },
+    {
+      "id": 3,
+      "email": "nimmy@gmail.com",
+      "password": "nimmy@developer",
+      "role": ["user"]
+    },
+    {
+      "id": 4,
+      "email": "jojo@gmail.com",
+      "password": "jojo@designer",
+      "role": ["user"]
+    },
+    {
+      "id": 5,
+      "email": "alice@gmail.com",
+      "password": "alice@Developer",
+      "role": ["user"]
+    },
+    {
+      "id": 6,
+      "email": "bob@gmail.com",
+      "password": "bob@designer",
+      "role": ["user"]
+    },
+    {
+      "id": 7,
+      "email": "nimmy@gmail.com",
+      "password": "nimmy@developer",
+      "role": ["user"]
+    },
+    {
+      "id": 8,
+      "email": "jojo@gmail.com",
+      "password": "jojo@designer",
+      "role": ["user"]
+    },
+    {
+      "id": 9,
+      "email": "john@gmail.com",
+      "password": "john@Developer",
+      "role": ["user"]
+    },
+    {
+      "id": 10,
+      "email": "mike@gmail.com",
+      "password": "mike@designer",
+      "role": ["user"]
+    },
+    {
+      "id": 11,
+      "email": "romy@gmail.com",
+      "password": "romy@developer",
+      "role": ["user"]
+    },
+    {
+      "id": 12,
+      "email": "josh@gmail.com",
+      "password": "josh@designer",
+      "role": ["user"]
+    },
+    {
+      "id": 13,
+      "email": "ryan@gmail.com",
+      "password": "ryan@Developer",
+      "role": ["user"]
+    }
+  ]
+}
