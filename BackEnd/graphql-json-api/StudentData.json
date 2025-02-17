@@ -1,0 +1,114 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "firstName": "John",
+      "lastName": "Doe ",
+      "age": 30,
+      "gender": "Male",
+      "dateOfBirth": "1993-05-15",
+      "email": "john.doe@example.com",
+      "country": "India",
+      "course": "Full Stack Web Development"
+    },
+    {
+      "id": "2",
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "age": 28,
+      "gender": "Female",
+      "dateOfBirth": "1995-03-22",
+      "email": "jane.smith@example.com",
+      "country": "India",
+      "course": "Designer"
+    },
+    {
+      "id": "3",
+      "firstName": "Sophia",
+      "lastName": "Martinez",
+      "age": 32,
+      "gender": "Female",
+      "dateOfBirth": "1991-04-12",
+      "email": "sophia.martinez@example.com",
+      "country": "India",
+      "course": "Product Manager"
+    },
+    {
+      "id": "4",
+      "firstName": "James",
+      "lastName": "Brown",
+      "age": 45,
+      "gender": "Male",
+      "dateOfBirth": "1978-08-30",
+      "email": "james.brown@example.com",
+      "country": "India",
+      "course": "Software Engineer"
+    },
+    {
+      "id": "5",
+      "firstName": "Emily",
+      "lastName": "Davis",
+      "age": 27,
+      "gender": "Female",
+      "dateOfBirth": "1996-11-05",
+      "email": "emily.davis@example.com",
+      "country": "India",
+      "course": "Data Scientist"
+    },
+    {
+      "id": "6",
+      "firstName": "Olivia",
+      "lastName": "Garcia",
+      "age": 29,
+      "gender": "Female",
+      "dateOfBirth": "1994-02-14",
+      "email": "olivia.garcia@example.com",
+      "country": "India",
+      "course": "Web Developer"
+    },
+    {
+      "id": "7",
+      "firstName": "William",
+      "lastName": "Hernandez",
+      "age": 38,
+      "gender": "Male",
+      "dateOfBirth": "1985-09-25",
+      "email": "william.hernandez@example.com",
+      "country": "India",
+      "course": "Developer"
+    },
+    {
+      "id": "8",
+      "firstName": "William",
+      "lastName": "Hernandez",
+      "age": 38,
+      "gender": "Male",
+      "dateOfBirth": "1985-09-25",
+      "email": "william.hernandez@example.com",
+      "country": "India",
+      "course": "Developer"
+    },
+    {
+      "id": "9",
+      "firstName": "Emily",
+      "lastName": "Johnson",
+      "age": 29,
+      "gender": "Female",
+      "dateOfBirth": "1994-03-15",
+      "email": "emily.johnson@example.com",
+      "country": "USA",
+      "course": "Graphic Design"
+    },
+    {
+      "id": "10",
+      "firstName": "Michael",
+      "lastName": "Smith",
+      "age": 25,
+      "gender": "Male",
+      "dateOfBirth": "1998-07-10",
+      "email": "michael.smith@example.com",
+      "country": "Canada",
+      "course": "Data Science"
+    }
+  ]
+}

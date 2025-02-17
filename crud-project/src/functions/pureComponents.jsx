@@ -38,36 +38,37 @@ export const MenuDropdown = React.memo(() => {
   );
 });
 
-export const StudentRow = React.memo(({ student, onDelete, showButtons, id }) => {
-  return (
-    <tr>
-      <td>{id}</td> 
-      <td>{student.name}</td>
-      <td>{student.email}</td>
-      <td>{student.course}</td>
-      <td>{student.password}</td>
-      {showButtons ? (
-        <td>
-          <Link
-            to={{
-              pathname: `/updateStudent/${student.id}`,
-              state: { student },
-            }}
-            className="btn btn-warning me-2"
-          >
-            Edit
-          </Link>
-          <button
-            className="btn btn-danger"
-            onClick={() => onDelete(student.id)}
-          >
-            Delete
-          </button>
-        </td>
-      ) : null}
-    </tr>
-  );
-});
+export const StudentRow = React.memo(
+  ({ student, onDelete, showButtons, id }) => {
+    return (
+      <tr>
+        <td>{id}</td>
+        <td>{student.firstName + " " + student.lastName}</td>
+        <td>{student.email}</td>
+        <td>{student.course}</td>
+        {showButtons ? (
+          <td>
+            <Link
+              to={{
+                pathname: `/updateStudent/${student.id}`,
+                state: { student },
+              }}
+              className="btn btn-warning me-2"
+            >
+              Edit
+            </Link>
+            <button
+              className="btn btn-danger"
+              onClick={() => onDelete(student.id)}
+            >
+              Delete
+            </button>
+          </td>
+        ) : null}
+      </tr>
+    );
+  }
+);
 
 export const TableHeader = React.memo(({ headers }) => {
   return (

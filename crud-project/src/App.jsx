@@ -4,7 +4,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { AuthProvider } from "./functions/Auth";
 import ProtectedRoute from "./functions/ProtectedRoute";
- 
+import ApolloProviderWrapper from "./GraphQl/ApolloProvider";
 
 const Home = lazy(() => import("./pages/Home"));
 const View = lazy(() => import("./pages/View"));
@@ -24,27 +24,29 @@ function App() {
   return (
     <BrowserRouter>
       <AuthProvider>
-        <Suspense fallback={<LoadingSpinner />}>
-          <Routes>
-            <Route path="/" element={<Login />} />
-            <Route
-              path="/home"
-              element={<ProtectedRoute element={<Home />} />}
-            />
-            <Route
-              path="/viewStudent"
-              element={<ProtectedRoute element={<View />} />}
-            />
-            <Route
-              path="/updateStudent/:id"
-              element={<ProtectedRoute element={<Update />} />}
-            />
-            <Route
-              path="/createStudent"
-              element={<ProtectedRoute element={<Create />} />}
-            />
-          </Routes>
-        </Suspense>
+        <ApolloProviderWrapper>
+          <Suspense fallback={<LoadingSpinner />}>
+            <Routes>
+              <Route path="/" element={<Login />} />
+              <Route
+                path="/home"
+                element={<ProtectedRoute element={<Home />} />}
+              />
+              <Route
+                path="/viewStudent"
+                element={<ProtectedRoute element={<View />} />}
+              />
+              <Route
+                path="/updateStudent/:id"
+                element={<ProtectedRoute element={<Update />} />}
+              />
+              <Route
+                path="/createStudent"
+                element={<ProtectedRoute element={<Create />} />}
+              />
+            </Routes>
+          </Suspense>
+        </ApolloProviderWrapper>
       </AuthProvider>
     </BrowserRouter>
   );

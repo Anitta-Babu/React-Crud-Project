@@ -5,22 +5,27 @@ import {
   StudentRow,
   TableHeader,
 } from "../functions/pureComponents";
-import { GetData } from "../functions/dataBaseOperations";
 import { useNavigate, useLocation } from "react-router-dom";
 import { useAuth } from "../functions/Auth";
+import { useQuery } from "@apollo/client";
+import { GET_STUDENTS } from "../GraphQl/Queries";
 
 function Home() {
-  const [data, setData] = useState([]);
-  const homeViewHeaders = ["ID", "Name", "Email", "Course", "Password"];
+  const homeViewHeaders = ["S.No", "Name", "Email", "Course"];
   const navigate = useNavigate();
   const location = useLocation();
   const { user } = useAuth();
+
+  const { loading, error, data } = useQuery(GET_STUDENTS);
+
   useEffect(() => {
-    GetData(setData);
     if (user) {
       navigate(location.pathname);
     }
-  }, []);
+  }, [user, navigate, location.pathname]);
+
+  if (loading) return <p>Loading...</p>;
+  if (error) return <p>Error fetching data: {error.message}</p>;
 
   return (
     <div
@@ -47,7 +52,7 @@ function Home() {
           <table className="table table-striped table-bordered table-hover text-center">
             <TableHeader headers={homeViewHeaders} />
             <tbody>
-              {data.map((d, index) => (
+              {data.students.map((d, index) => (
                 <StudentRow
                   key={d.id}
                   student={d}
